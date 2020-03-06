@@ -1,9 +1,12 @@
+import './styles/tailwind.css'
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import App from './App';
+import App from './app/App';
 import * as serviceWorker from './serviceWorker';
-import store from './store';
+import store from './app/store';
+
+console.log(store.getState(), "store.getState()")
 
 ReactDOM.render(
     <Provider store={store}>
