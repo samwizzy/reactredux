@@ -22,4 +22,6 @@ const users = [
     }
 ];
 
-export default users;
+mock.onGet("/users").reply(200, {
+    users: users
+});

@@ -1,3 +1,4 @@
+import loadable from '@loadable/component'
 import Login from './Login'
 
 const loginConfig = [
@@ -6,7 +7,7 @@ const loginConfig = [
             {
                 path: '/login',
                 exact: true,
-                component: Login
+                component: loadable(() => import('./Login'))
             }
         ]
     }
