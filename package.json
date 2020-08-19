@@ -15,7 +15,7 @@
     "jss": "^9.8.7",
     "jss-extend": "^6.2.0",
     "jwt-decode": "^2.2.0",
-    "lodash": "^4.17.14",
+    "lodash": "^4.17.19",
     "material-table": "^1.40.0",
     "prop-types": "^15.7.2",
     "query-string": "^6.8.1",
